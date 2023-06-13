@@ -20,6 +20,12 @@ In 2023, I transitioned into the world of Frontend Development by studying at RS
 * VSCode
 -----
 ## **Code Example:**
+```
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return i;
+}
+```
 -----
 ## **Experience:**
 -----
