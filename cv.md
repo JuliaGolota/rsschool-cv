@@ -5,7 +5,7 @@
 * **Phone:** +201019320546
 * **E-mail:** golotajulia@gmail.com
 * **GitHub:** JuliaGolota
-* **Telegram:** @golotajulia
+* **Telegram:** [@golotajulia] (https://t.me/+79150076677)
 -----
 ## **About Me:**
 -----
