@@ -21,9 +21,9 @@ In 2023, I transitioned into the world of Frontend Development by studying at RS
 -----
 ## **Code Example:**
 ```
-function doubleInteger(i) {
-  // i will be an integer. Double it and return it.
-  return i;
+const printMotto = () => {
+    const text = 'Winter is coming';
+    console.log(text);
 }
 ```
 -----
