@@ -6,11 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julia Golota CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <img src="photo.jpeg" width="200">
-    <h1>Julia Golota</h1>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <div class="info">
+                <img src="Photo.jpeg" alt="My photo" class="avatar">
+                <div class="info-text">
+                    <h1 class="section-title">Julia Golota</h1>
+                    <h3 class="section-title">Junior Frontend Developer</h3>
+                </div>
+            </div>
+            <section class="section" id="Contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Phone: +201019320546</li>
+                    <li>E-mail: golotajulia@gmail.com</li>
+                    <li>GitHub: <a target="_blank" href="https://github.com/JuliaGolota">JuliaGolota</a></li>
+                    <li>Telegram: <a target="_blank" href="https://t.me/+79150076677">@golotajulia</a></li>
+                </ul>
+            </section>
+            <section class="section" id="Summary">
+                <h2 class="section-title">Summary</h2>
+                <p>My professional journey began in the field of construction, where I spent fifteen years working as an
+                    design engineer and technical expert in various Belorussian and Russian companies. Throughout my
+                    career, I have successfully executed a wide range of diverse and intricate projects. These
+                    experiences
+                    have provided me with invaluable skills, including effective teamwork, adept communication across
+                    different contexts, and problem-solving abilities.
+                </p>
+                <p>In 2023, I transitioned into the world of Frontend Development by studying at RS School.</p>
+            </section>
+            <section class="section" id="Skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript Basics</li>
+                    <li>VS Code</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </section>
+            <section class="section" id="Code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+                        <code>
+                const printMotto = () => {
+                    const text = 'Winter is coming';
+                    console.log(text);
+                }
+            </code>
+        </pre>
+            </section>
+            <section class="section" id="Education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>University: Belarusian National Technical University, The Faculty of Energy Construction</li>
+                    <li>Courses:</li>
+                    <ul>
+                        <li>British Council (English A2)</li>
+                        <li>HTML Academy</li>
+                        <li>Code-basics</li>
+                    </ul>
+                </ul>
+            </section>
+            <section class="section" id="Languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Russian – native speaker</li>
+                    <li>English - A2 (B1 in process)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="my-github" href="https://github.com/JuliaGolota">
+            <img class="github-icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Icon"
+                width="26" height="26">
+        </a>
+        <p>© 2023</p>
+        <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+        </a>
+    </footer>
+    </div>
 </body>
 
 </html>
